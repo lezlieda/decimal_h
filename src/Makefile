@@ -39,6 +39,6 @@ check:
 	clang-format -n *.c *.h
 
 clean:
-	rm -rf *.o *.gcno *.gcda *.info *.a *.gch GcovReport s21_decimal_test report valgrind-out.txt
+	rm -rf test *.o *.gcno *.gcda *.info *.a *.gch GcovReport s21_decimal_test report valgrind-out.txt
 
 rebuild: clean all
